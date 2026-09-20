@@ -8,6 +8,8 @@ import {
   Loader2,
   X,
 } from "lucide-react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 import { getCaseStudyBySlug } from "../../services/caseStudyService";
 import SEO from "../../components/seo/SEO";
@@ -143,9 +145,7 @@ const CaseStudyDetails = () => {
    * duplicate cover remove karne ke liye Set use kiya hai
    */
   const allImages = Array.from(
-    new Set(
-      [coverImage, ...galleryImages].filter(Boolean)
-    )
+    new Set([coverImage, ...galleryImages].filter(Boolean))
   );
 
   const technologies = Array.isArray(caseStudy.technologies)
@@ -158,30 +158,31 @@ const CaseStudyDetails = () => {
 
   return (
     <main className="min-h-screen bg-white">
-         <SEO
-      title={
-        caseStudy.seoTitle ||
-        `${caseStudy.title} | Project Case Study | SkillPilot`
-      }
-      description={
-        caseStudy.metaDescription ||
-        caseStudy.shortDescription ||
-        caseStudy.description ||
-        `Explore the ${caseStudy.title} project case study, including technologies, development approach, features, challenges and project results.`
-      }
-      canonical={`https://skillpilot.in/case-studies/${caseStudy.slug}`}
-      ogTitle={
-        caseStudy.seoTitle ||
-        `${caseStudy.title} | Project Case Study | SkillPilot`
-      }
-      ogDescription={
-        caseStudy.metaDescription ||
-        caseStudy.shortDescription ||
-        caseStudy.description ||
-        `Explore the ${caseStudy.title} project case study on SkillPilot.`
-      }
-      ogType="article"
-    />
+      <SEO
+        title={
+          caseStudy.seoTitle ||
+          `${caseStudy.title} | Project Case Study | SkillPilot`
+        }
+        description={
+          caseStudy.metaDescription ||
+          caseStudy.shortDescription ||
+          caseStudy.description ||
+          `Explore the ${caseStudy.title} project case study, including technologies, development approach, features, challenges and project results.`
+        }
+        canonical={`https://skillpilot.in/case-studies/${caseStudy.slug}`}
+        ogTitle={
+          caseStudy.seoTitle ||
+          `${caseStudy.title} | Project Case Study | SkillPilot`
+        }
+        ogDescription={
+          caseStudy.metaDescription ||
+          caseStudy.shortDescription ||
+          caseStudy.description ||
+          `Explore the ${caseStudy.title} project case study on SkillPilot.`
+        }
+        ogType="article"
+      />
+
       {/* =========================================
           HERO
       ========================================== */}
@@ -269,9 +270,24 @@ const CaseStudyDetails = () => {
               </h2>
 
               {caseStudy.description && (
-                <p className="mt-6 whitespace-pre-line text-base leading-8 text-slate-600">
-                  {caseStudy.description}
-                </p>
+                <div className="case-study-content mt-6">
+                  <ReactMarkdown
+                    remarkPlugins={[remarkGfm]}
+                    components={{
+                      a: ({ href, children }) => (
+                        <a
+                          href={href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {children}
+                        </a>
+                      ),
+                    }}
+                  >
+                    {caseStudy.description}
+                  </ReactMarkdown>
+                </div>
               )}
             </div>
 
@@ -320,9 +336,24 @@ const CaseStudyDetails = () => {
                 Challenge
               </h2>
 
-              <p className="mt-5 max-w-4xl whitespace-pre-line text-base leading-8 text-slate-600">
-                {caseStudy.challenge}
-              </p>
+              <div className="case-study-content mt-5 max-w-4xl">
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm]}
+                  components={{
+                    a: ({ href, children }) => (
+                      <a
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {children}
+                      </a>
+                    ),
+                  }}
+                >
+                  {caseStudy.challenge}
+                </ReactMarkdown>
+              </div>
             </section>
           )}
 
@@ -339,9 +370,24 @@ const CaseStudyDetails = () => {
                 Solution
               </h2>
 
-              <p className="mt-5 max-w-4xl whitespace-pre-line text-base leading-8 text-slate-600">
-                {caseStudy.solution}
-              </p>
+              <div className="case-study-content mt-5 max-w-4xl">
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm]}
+                  components={{
+                    a: ({ href, children }) => (
+                      <a
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {children}
+                      </a>
+                    ),
+                  }}
+                >
+                  {caseStudy.solution}
+                </ReactMarkdown>
+              </div>
             </section>
           )}
 
@@ -393,9 +439,24 @@ const CaseStudyDetails = () => {
                 Result
               </h2>
 
-              <p className="mt-5 max-w-4xl whitespace-pre-line text-base leading-8 text-slate-400">
-                {caseStudy.result}
-              </p>
+              <div className="case-study-content case-study-result mt-5 max-w-4xl">
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm]}
+                  components={{
+                    a: ({ href, children }) => (
+                      <a
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {children}
+                      </a>
+                    ),
+                  }}
+                >
+                  {caseStudy.result}
+                </ReactMarkdown>
+              </div>
             </section>
           )}
 

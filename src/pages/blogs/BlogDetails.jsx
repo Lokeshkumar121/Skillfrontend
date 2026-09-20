@@ -7,6 +7,8 @@ import {
   Clock,
   Loader2,
 } from "lucide-react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 import { getBlogBySlug } from "../../services/blogService";
 import SEO from "../../components/seo/SEO";
@@ -245,17 +247,7 @@ const BlogDetails = () => {
                 </div>
               )}
 
-              <div className="flex items-center gap-2">
-                <Clock size={16} />
-
-                <span>
-                  {getReadingTime(
-                    blog.content ||
-                      blog.body ||
-                      blog.description
-                  )}
-                </span>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -280,34 +272,91 @@ const BlogDetails = () => {
           {/* Main content */}
           <div className="mx-auto mt-14 max-w-4xl">
             {/* Actual Blog Content */}
-            {blog.content && (
-              <div
-                className="blog-content text-base leading-8 text-slate-700"
-                dangerouslySetInnerHTML={{
-                  __html: blog.content,
-                }}
-              />
-            )}
+           
 
             {/* Fallback content */}
-            {!blog.content &&
-              blog.body && (
-                <div
-                  className="blog-content text-base leading-8 text-slate-700"
-                  dangerouslySetInnerHTML={{
-                    __html: blog.body,
-                  }}
-                />
-              )}
+          
 
             {/* Description fallback */}
-            {!blog.content &&
-              !blog.body &&
-              blog.description && (
-                <div className="whitespace-pre-line text-base leading-8 text-slate-700">
-                  {blog.description}
-                </div>
-              )}
+          {/* Actual Blog Content */}
+{blog.content && (
+  <div className="blog-content">
+    <ReactMarkdown
+      remarkPlugins={[remarkGfm]}
+      components={{
+        h1: ({ children }) => (
+          <h1>{children}</h1>
+        ),
+
+        h2: ({ children }) => (
+          <h2>{children}</h2>
+        ),
+
+        h3: ({ children }) => (
+          <h3>{children}</h3>
+        ),
+
+        h4: ({ children }) => (
+          <h4>{children}</h4>
+        ),
+
+        p: ({ children }) => (
+          <p>{children}</p>
+        ),
+
+        ul: ({ children }) => (
+          <ul>{children}</ul>
+        ),
+
+        ol: ({ children }) => (
+          <ol>{children}</ol>
+        ),
+
+        li: ({ children }) => (
+          <li>{children}</li>
+        ),
+
+        strong: ({ children }) => (
+          <strong>{children}</strong>
+        ),
+
+        blockquote: ({ children }) => (
+          <blockquote>{children}</blockquote>
+        ),
+
+        code: ({ inline, children }) =>
+          inline ? (
+            <code>{children}</code>
+          ) : (
+            <pre>
+              <code>{children}</code>
+            </pre>
+          ),
+
+        a: ({ href, children }) => (
+          <a
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {children}
+          </a>
+        ),
+
+        img: ({ src, alt }) => (
+          <img
+            src={src}
+            alt={alt || blog.title}
+          />
+        ),
+
+        hr: () => <hr />,
+      }}
+    >
+      {blog.content}
+    </ReactMarkdown>
+  </div>
+)}
           </div>
 
           {/* =====================================

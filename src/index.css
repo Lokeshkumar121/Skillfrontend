@@ -1,2 +1,393 @@
 @import "tailwindcss";
 
+/* =========================================
+   BLOG CONTENT
+========================================= */
+
+.blog-content {
+  color: #334155;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+/* Paragraph */
+.blog-content p {
+  margin: 0 0 1.5rem;
+}
+
+/* Headings */
+.blog-content h1 {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.blog-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.85rem;
+  line-height: 1.3;
+  font-weight: 750;
+  color: #0f172a;
+}
+
+.blog-content h3 {
+  margin-top: 2.25rem;
+  margin-bottom: 0.85rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.blog-content h4 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* Strong / Bold */
+.blog-content strong {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* Links */
+.blog-content a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.blog-content a:hover {
+  color: #1d4ed8;
+}
+
+/* Lists */
+.blog-content ul {
+  margin: 1.25rem 0 1.75rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.blog-content ol {
+  margin: 1.25rem 0 1.75rem;
+  padding-left: 1.5rem;
+  list-style-type: decimal;
+}
+
+.blog-content li {
+  margin-bottom: 0.65rem;
+  padding-left: 0.25rem;
+}
+
+/* Nested lists */
+.blog-content ul ul,
+.blog-content ol ol,
+.blog-content ul ol,
+.blog-content ol ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Blockquote */
+.blog-content blockquote {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #2563eb;
+  border-radius: 0.75rem;
+  background: #f8fafc;
+  color: #475569;
+  font-style: italic;
+}
+
+/* Code */
+.blog-content code {
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.35rem;
+  background: #f1f5f9;
+  color: #0f172a;
+  font-size: 0.9em;
+  font-family: monospace;
+}
+
+/* Code Block */
+.blog-content pre {
+  margin: 2rem 0;
+  padding: 1.25rem;
+  overflow-x: auto;
+  border-radius: 1rem;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.blog-content pre code {
+  padding: 0;
+  background: transparent;
+  color: inherit;
+}
+
+/* Images inside blog content */
+.blog-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+
+/* Tables */
+.blog-content table {
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+.blog-content th,
+.blog-content td {
+  padding: 0.85rem 1rem;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.blog-content th {
+  background: #f8fafc;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* Horizontal line */
+.blog-content hr {
+  margin: 3rem 0;
+  border: 0;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* First heading spacing */
+.blog-content > h1:first-child,
+.blog-content > h2:first-child,
+.blog-content > h3:first-child {
+  margin-top: 0;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .blog-content {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .blog-content h1 {
+    font-size: 1.85rem;
+  }
+
+  .blog-content h2 {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .blog-content h3 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .blog-content blockquote {
+    padding: 1rem 1.1rem;
+  }
+
+  .blog-content pre {
+    font-size: 0.82rem;
+    border-radius: 0.75rem;
+  }
+
+  .blog-content table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+/* =========================================
+   CASE STUDY MARKDOWN CONTENT
+========================================= */
+
+.case-study-content {
+  color: #475569;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.case-study-content p {
+  margin-bottom: 1.5rem;
+}
+
+.case-study-content h1 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.case-study-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.85rem;
+  line-height: 1.3;
+  font-weight: 750;
+  color: #0f172a;
+}
+
+.case-study-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.case-study-content h4 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.case-study-content strong {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.case-study-content ul {
+  margin: 1.25rem 0 1.75rem;
+  padding-left: 1.75rem;
+  list-style-type: disc;
+}
+
+.case-study-content ol {
+  margin: 1.25rem 0 1.75rem;
+  padding-left: 1.75rem;
+  list-style-type: decimal;
+}
+
+.case-study-content li {
+  margin-bottom: 0.65rem;
+  padding-left: 0.3rem;
+}
+
+.case-study-content a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.case-study-content blockquote {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #2563eb;
+  border-radius: 0.75rem;
+  background: #f8fafc;
+  color: #475569;
+}
+
+.case-study-content code {
+  padding: 0.2rem 0.45rem;
+  border-radius: 0.35rem;
+  background: #f1f5f9;
+  color: #0f172a;
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+.case-study-content pre {
+  margin: 2rem 0;
+  padding: 1.25rem;
+  overflow-x: auto;
+  border-radius: 1rem;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.case-study-content pre code {
+  padding: 0;
+  background: transparent;
+  color: inherit;
+}
+
+.case-study-content hr {
+  margin: 2.5rem 0;
+  border: 0;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* =========================================
+   RESULT SECTION
+========================================= */
+
+.case-study-result {
+  color: #cbd5e1;
+}
+
+.case-study-result h1,
+.case-study-result h2,
+.case-study-result h3,
+.case-study-result h4 {
+  color: #ffffff;
+}
+
+.case-study-result strong {
+  color: #ffffff;
+}
+
+.case-study-result blockquote {
+  background: rgba(255, 255, 255, 0.05);
+  border-left-color: #60a5fa;
+  color: #cbd5e1;
+}
+
+.case-study-result code {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 640px) {
+  .case-study-content {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .case-study-content h1 {
+    font-size: 1.85rem;
+  }
+
+  .case-study-content h2 {
+    font-size: 1.55rem;
+  }
+
+  .case-study-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .case-study-content pre {
+    font-size: 0.8rem;
+  }
+}
