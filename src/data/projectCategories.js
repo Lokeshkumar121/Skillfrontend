@@ -18,6 +18,7 @@ import img17 from "../assets/img/img17.jpg"
 import img18 from "../assets/img/img18.jpg"
 import img19 from "../assets/img/img19.jpg"
 import img20 from "../assets/img/img20.jpg"
+import img21 from "../assets/img/img21.jpg"
 
 const projectCategories = 
 
@@ -4889,6 +4890,1020 @@ const projectCategories =
   internalLinking: ["Mini Projects", "Final Year Projects", "Python Projects", "Java Projects", "Web Development"],
 
   imageAltText: ["Project ideas and tutorials for practical development", "Coding tutorial on computer screen", "Step-by-step project guide", "Developer working on project from tutorial", "Collection of project ideas for learning"]
+},
+{
+  id: 21,
+
+  title: "Student Project Development",
+
+  slug: "student-project-development",
+
+  description:
+    "Complete student project development services for final year, major, minor and academic projects across web development, mobile apps, AI/ML, Python, Java, MERN, IoT, data science, cybersecurity and other technologies.",
+
+  image: img21,
+
+  seoTitle:
+    "Student Project Development Services | Final Year & Academic Projects | SkillPilot",
+
+  metaDescription:
+    "Get complete student project development services for final year, major, minor and academic projects. SkillPilot helps students build Web, AI/ML, Python, Java, MERN, mobile, IoT and other technology projects with development, documentation, guidance and project support.",
+
+  seoUrl: "/services/student-project-development",
+
+  h1:
+    "Student Project Development Services for Final Year & Academic Projects",
+
+  introduction:
+    "Building a college or final year project can be challenging when you have an idea but do not know how to plan, develop, test, document and present it. Our Student Project Development service helps students turn their project ideas into practical, working software solutions. We support students with project planning, technology selection, UI development, backend development, database integration, APIs, testing, deployment, documentation guidance and project explanation. Whether you need a final year project, major project, minor project, B.Tech project, BCA project, MCA project or a project based on a specific technology, we help you move from idea to a structured and working project.",
+
+  whatIsService:
+    "Student Project Development is a complete project support service designed for students who need help building academic, college, diploma, graduation or final year projects. The service can cover the complete development lifecycle, from understanding the project requirement and selecting the right technology to designing the interface, developing frontend and backend functionality, connecting databases and APIs, testing the application and preparing the project for demonstration. Projects can be developed across multiple domains including web development, mobile application development, artificial intelligence, machine learning, data science, Python, Java, MERN Stack, IoT, cloud computing, cybersecurity and other modern technologies. The focus is on creating practical projects that students can understand, explain and demonstrate.",
+
+  benefits: [
+    "Complete project development – Get support from project idea to a working application.",
+
+    "Final year project support – Build major and final year projects according to academic requirements.",
+
+    "Technology selection – Choose a suitable technology stack based on your project idea and skill level.",
+
+    "Custom development – Project features can be planned around your specific requirements.",
+
+    "Modern technologies – Build projects using current technologies such as React, Node.js, Python, Java, AI/ML, mobile development and cloud platforms.",
+
+    "Responsive design – Create projects that work properly across desktop, tablet and mobile devices.",
+
+    "Database integration – Connect projects with databases such as MongoDB, MySQL and PostgreSQL.",
+
+    "API integration – Implement REST APIs and third-party services where required.",
+
+    "Project documentation support – Get guidance for project reports, technical documentation and project explanations.",
+
+    "Project demonstration support – Understand how the project works and prepare for project demonstrations and presentations.",
+
+    "Deployment support – Deploy suitable projects to platforms such as Vercel, Render, Netlify or cloud infrastructure.",
+
+    "Portfolio value – Build projects that can also be presented on GitHub, resumes and portfolios.",
+
+    "Troubleshooting support – Get help with bugs, configuration issues and implementation problems.",
+
+    "Learning through development – Understand the technologies and development concepts used in your project.",
+
+    "Future enhancement – Get suggestions for additional features and improvements after the initial project is completed."
+  ],
+
+  whyChooseUs:
+    "Students often have a project idea but struggle with technology selection, architecture, implementation, debugging, documentation and final presentation. SkillPilot provides structured project development support across these stages. We focus on building practical and understandable projects instead of simply delivering an application without context. Our team can work with different technology stacks and project requirements, helping students understand the major components of their project. From a simple mini project to a complex final year application, the development approach can be adjusted according to the student's academic requirements, timeline, skill level and project scope.",
+
+  process: [
+    {
+      step: 1,
+      title: "Requirement Discussion",
+      description:
+        "We understand your project idea, academic requirements, technology preferences, expected features and submission timeline."
+    },
+
+    {
+      step: 2,
+      title: "Project Planning",
+      description:
+        "We define the project scope, major features, modules, user roles, database requirements and development roadmap."
+    },
+
+    {
+      step: 3,
+      title: "Technology Selection",
+      description:
+        "We recommend a suitable technology stack based on the project requirements, complexity and student's learning goals."
+    },
+
+    {
+      step: 4,
+      title: "UI/UX Design",
+      description:
+        "We plan the user interface, navigation structure, screens and responsive layouts required for the project."
+    },
+
+    {
+      step: 5,
+      title: "Frontend Development",
+      description:
+        "The frontend interface and user-facing functionality are developed using the selected technologies."
+    },
+
+    {
+      step: 6,
+      title: "Backend Development",
+      description:
+        "Backend APIs, authentication, business logic, database operations and required integrations are implemented."
+    },
+
+    {
+      step: 7,
+      title: "Database Integration",
+      description:
+        "Required database models, collections, relationships and data operations are implemented and connected with the application."
+    },
+
+    {
+      step: 8,
+      title: "Testing & Debugging",
+      description:
+        "The project is tested across important flows and identified bugs or implementation issues are resolved."
+    },
+
+    {
+      step: 9,
+      title: "Deployment",
+      description:
+        "Where required, the project is prepared and deployed to a suitable hosting or cloud platform."
+    },
+
+    {
+      step: 10,
+      title: "Documentation Support",
+      description:
+        "We provide guidance for project documentation, technical explanations, diagrams, features and implementation details."
+    },
+
+    {
+      step: 11,
+      title: "Project Explanation",
+      description:
+        "Students are guided through the major modules, technologies and workflows so they can understand and explain their project."
+    },
+
+    {
+      step: 12,
+      title: "Final Support",
+      description:
+        "We provide support for final improvements, project demonstration preparation and reasonable post-development questions."
+    }
+  ],
+
+  // ========== REAL PROJECTS ==========
+
+  realProjects: [
+    {
+      name: "MERN Stack College Management System",
+
+      client:
+        "B.Tech CSE final year student requiring a complete academic project",
+
+      duration: "12 weeks",
+
+      techStack: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "REST API",
+        "JWT Authentication"
+      ],
+
+      challenge:
+        "The student needed a complete final year project that demonstrated frontend development, backend APIs, authentication, database management and role-based functionality. The project also needed to be understandable enough for the student to explain during the final project presentation.",
+
+      solution:
+        "Developed a college management platform with separate modules for administrators, teachers and students. The project included authentication, role-based access, student management, course management, attendance, notifications and dashboard functionality. The application was developed using React.js for the frontend, Node.js and Express.js for the backend and MongoDB for data storage. The project was structured into reusable frontend components and modular backend APIs.",
+
+      result:
+        "The student received a complete working academic project with a responsive interface, backend API architecture, database integration and role-based functionality. The project was also prepared for demonstration and documentation."
+    },
+
+    {
+      name: "AI-Based Student Performance Prediction Project",
+
+      client:
+        "BCA final year student looking for an AI/ML-based academic project",
+
+      duration: "8 weeks",
+
+      techStack: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Flask",
+        "React",
+        "MongoDB"
+      ],
+
+      challenge:
+        "The student wanted to build an AI/ML project but had difficulty selecting a practical problem and connecting a machine learning model with a usable application interface.",
+
+      solution:
+        "The project was planned around student academic data and performance prediction. Python and Scikit-learn were used for data processing and machine learning model development. A Flask API was created to expose the prediction functionality, while React was used to create the user interface. MongoDB was integrated where persistent application data was required.",
+
+      result:
+        "The student received a practical AI/ML project that combined machine learning with a web application. The project provided a clear demonstration of data preprocessing, model training, prediction APIs and frontend integration."
+    },
+
+    {
+      name: "Mobile Application for Student Services",
+
+      client:
+        "MCA student requiring a mobile application for final year submission",
+
+      duration: "10 weeks",
+
+      techStack: [
+        "React Native",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase",
+        "REST API"
+      ],
+
+      challenge:
+        "The student needed a mobile application that included authentication, user profiles, service listings, notifications and backend integration but had limited experience with mobile application development.",
+
+      solution:
+        "A React Native mobile application was developed with a Node.js and Express.js backend. The application included authentication, API integration, user management, service screens and notification-related functionality. Firebase was used where required for supporting mobile services.",
+
+      result:
+        "The completed application provided the student with a functional mobile project suitable for academic demonstration and portfolio presentation. The student also received guidance on the application's architecture and major development components."
+    }
+  ],
+
+  // ========== PRICING ==========
+
+  pricing: {
+    packages: [
+      {
+        name: "Project Consultation",
+        bestFor:
+          "Students who already have an idea and need planning, technology selection and development guidance",
+        price: "Custom",
+        timeline: "1-3 days"
+      },
+
+      {
+        name: "Mini Project",
+        bestFor:
+          "Students looking for a small academic or practice project",
+        price: "Custom",
+        timeline: "1-3 weeks"
+      },
+
+      {
+        name: "Major Project",
+        bestFor:
+          "Students requiring a complete major or final year project",
+        price: "Custom",
+        timeline: "4-12 weeks"
+      },
+
+      {
+        name: "Custom Final Year Project",
+        bestFor:
+          "Students requiring customized development across web, mobile, AI/ML, IoT or other technologies",
+        price: "Custom",
+        timeline: "6-16 weeks"
+      }
+    ],
+
+    included: [
+      "Project requirement discussion",
+
+      "Project scope and feature planning",
+
+      "Technology stack recommendation",
+
+      "Database planning",
+
+      "UI/UX structure",
+
+      "Frontend development",
+
+      "Backend development",
+
+      "API integration",
+
+      "Database integration",
+
+      "Authentication and authorization where required",
+
+      "Testing and debugging",
+
+      "Deployment guidance",
+
+      "Project documentation guidance",
+
+      "Project explanation and demonstration support",
+
+      "Reasonable post-development support"
+    ],
+
+    notIncluded: [
+      "Third-party software subscription fees",
+
+      "Paid API or cloud service charges",
+
+      "Hardware components for IoT projects",
+
+      "Domain and hosting charges unless specifically included",
+
+      "Long-term maintenance outside the agreed scope",
+
+      "Major features added after final scope approval without additional discussion"
+    ]
+  },
+
+  // ========== TECHNOLOGIES ==========
+
+  technologies: {
+    webDevelopment: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "Django",
+      "Flask",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL"
+    ],
+
+    mobileApps: [
+      "React Native",
+      "Flutter",
+      "Android",
+      "Kotlin",
+      "Swift",
+      "Firebase"
+    ],
+
+    dataScience: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Scikit-learn",
+      "SQL",
+      "Jupyter"
+    ],
+
+    aiMl: [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "OpenCV",
+      "Hugging Face",
+      "LangChain"
+    ],
+
+    iot: [
+      "Arduino",
+      "ESP32",
+      "Raspberry Pi",
+      "Sensors",
+      "MQTT",
+      "LoRa"
+    ],
+
+    blockchain: [
+      "Solidity",
+      "Ethereum",
+      "Polygon",
+      "Web3.js",
+      "IPFS"
+    ],
+
+    cybersecurity: [
+      "Python",
+      "Kali Linux",
+      "Wireshark",
+      "Burp Suite",
+      "OWASP"
+    ],
+
+    cloudDevOps: [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Terraform",
+      "Render",
+      "Vercel"
+    ],
+
+    programmingLanguages: [
+      "Python",
+      "JavaScript",
+      "Java",
+      "C++",
+      "Go",
+      "Rust"
+    ]
+  },
+
+  // ========== DELIVERY TIMELINE ==========
+
+  timeline: [
+    {
+      phase: "Initial Discussion",
+      duration: "1 session",
+      deliverables:
+        "Understanding project requirements, academic needs, technology preferences and timeline"
+    },
+
+    {
+      phase: "Project Planning",
+      duration: "1-3 days",
+      deliverables:
+        "Project scope, modules, features, technology stack and development roadmap"
+    },
+
+    {
+      phase: "UI/UX Planning",
+      duration: "2-5 days",
+      deliverables:
+        "Page structure, screens, navigation and responsive design plan"
+    },
+
+    {
+      phase: "Frontend Development",
+      duration: "1-4 weeks",
+      deliverables:
+        "Responsive frontend interface and user-facing functionality"
+    },
+
+    {
+      phase: "Backend Development",
+      duration: "1-4 weeks",
+      deliverables:
+        "APIs, authentication, business logic and backend functionality"
+    },
+
+    {
+      phase: "Database Integration",
+      duration: "2-7 days",
+      deliverables:
+        "Database models, collections, relationships and data operations"
+    },
+
+    {
+      phase: "Testing & Debugging",
+      duration: "3-7 days",
+      deliverables:
+        "Bug fixing, functionality testing and responsive testing"
+    },
+
+    {
+      phase: "Deployment",
+      duration: "1-3 days",
+      deliverables:
+        "Deployment preparation and live project setup where required"
+    },
+
+    {
+      phase: "Documentation Guidance",
+      duration: "2-5 days",
+      deliverables:
+        "Project explanation, technical details and documentation guidance"
+    },
+
+    {
+      phase: "Final Demonstration Support",
+      duration: "1-2 sessions",
+      deliverables:
+        "Project walkthrough, feature explanation and demonstration preparation"
+    }
+  ],
+
+  // ========== TEAM ==========
+
+  team: [
+    {
+      role: "Project Consultant",
+      description:
+        "Understands the student's academic requirements and helps define the project scope."
+    },
+
+    {
+      role: "Project Developer",
+      description:
+        "Develops the required frontend, backend and application functionality."
+    },
+
+    {
+      role: "UI/UX Developer",
+      description:
+        "Creates responsive interfaces and user-friendly project layouts."
+    },
+
+    {
+      role: "Backend Developer",
+      description:
+        "Handles APIs, authentication, database operations and server-side functionality."
+    },
+
+    {
+      role: "AI/ML or Domain Expert",
+      description:
+        "Provides specialized development support for AI, ML, data science, IoT and other domains."
+    },
+
+    {
+      role: "Code Reviewer",
+      description:
+        "Reviews important project modules and helps identify implementation issues."
+    },
+
+    {
+      role: "Project Documentation Advisor",
+      description:
+        "Guides students in understanding and presenting their technical project documentation."
+    }
+  ],
+
+  // ========== COMPARISON ==========
+
+  comparison: [
+    {
+      feature: "Project Planning",
+      us: "Structured",
+      youtube: "Generic",
+      freelancers: "Varies"
+    },
+
+    {
+      feature: "Technology Selection",
+      us: "Requirement-based",
+      youtube: "Tutorial-based",
+      freelancers: "Varies"
+    },
+
+    {
+      feature: "Custom Features",
+      us: "Yes",
+      youtube: "Limited",
+      freelancers: "Usually available"
+    },
+
+    {
+      feature: "Frontend Development",
+      us: "Included as required",
+      youtube: "Self implementation",
+      freelancers: "Usually available"
+    },
+
+    {
+      feature: "Backend Development",
+      us: "Included as required",
+      youtube: "Self implementation",
+      freelancers: "Usually available"
+    },
+
+    {
+      feature: "Database Integration",
+      us: "Supported",
+      youtube: "Tutorial dependent",
+      freelancers: "Usually available"
+    },
+
+    {
+      feature: "Troubleshooting",
+      us: "Support available",
+      youtube: "Community/comments",
+      freelancers: "Depends on agreement"
+    },
+
+    {
+      feature: "Project Explanation",
+      us: "Guidance included",
+      youtube: "Self learning",
+      freelancers: "Usually limited"
+    },
+
+    {
+      feature: "Documentation Guidance",
+      us: "Available",
+      youtube: "Generic",
+      freelancers: "Depends on agreement"
+    },
+
+    {
+      feature: "Deployment Guidance",
+      us: "Available",
+      youtube: "Tutorial dependent",
+      freelancers: "Depends on scope"
+    }
+  ],
+
+  // ========== CASE STUDY ==========
+
+  caseStudy: {
+    title:
+      "From Project Idea to Working Final Year Application",
+
+    background:
+      "A final year B.Tech student had a project concept but was struggling to convert the idea into a complete working application. The student understood basic programming concepts but had limited experience with frontend architecture, backend APIs, databases and deployment. The project also needed to be demonstrated during the final academic evaluation.",
+
+    challenge: [
+      "Unclear project scope",
+
+      "Difficulty selecting the right technology stack",
+
+      "Limited experience with full-stack development",
+
+      "No clear database structure",
+
+      "Difficulty connecting frontend and backend",
+
+      "Authentication and API integration challenges",
+
+      "Limited understanding of deployment",
+
+      "Need for project documentation and presentation preparation"
+    ],
+
+    approach: [
+      "Started with a detailed requirement discussion",
+
+      "Defined the project modules and core features",
+
+      "Selected a technology stack based on the project requirements",
+
+      "Created the initial database and API architecture",
+
+      "Designed the main application screens",
+
+      "Developed the frontend using reusable components",
+
+      "Developed backend APIs and business logic",
+
+      "Connected the frontend with the backend",
+
+      "Integrated the database",
+
+      "Tested important application workflows",
+
+      "Resolved implementation and configuration issues",
+
+      "Prepared the project for deployment",
+
+      "Explained the major project modules to the student",
+
+      "Provided guidance for project documentation and demonstration"
+    ],
+
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "REST API",
+      "JWT Authentication",
+      "Git",
+      "GitHub"
+    ],
+
+    results: [
+      "Completed a structured final year project",
+
+      "Implemented frontend and backend architecture",
+
+      "Integrated database and REST APIs",
+
+      "Created responsive project interfaces",
+
+      "Prepared the application for demonstration",
+
+      "Improved the student's understanding of the project architecture",
+
+      "Provided a foundation for future project enhancements",
+
+      "Created a project that could also be presented as part of a technical portfolio"
+    ],
+
+    testimonial: {
+      text:
+        "I had the project idea but was completely confused about how to convert it into a working application. The structured planning helped me understand what to build first, which technologies to use and how the frontend, backend and database connect together. By the end, I was able to explain the major modules of my project during the presentation.",
+
+      author: "Final Year B.Tech Student",
+
+      role:
+        "Computer Science Student → Final Year Project"
+    }
+  },
+
+  // ========== COMMON MISTAKES ==========
+
+  commonMistakes: [
+    {
+      mistake:
+        "Choosing a project that is too complex",
+
+      problem:
+        "Students sometimes select projects that are far beyond their current technical skills or available development time. This can result in incomplete functionality and unnecessary complexity.",
+
+      solution:
+        "Define the project scope according to the academic deadline, available resources and student's current skill level. Start with essential functionality and add advanced features only when the core application is stable."
+    },
+
+    {
+      mistake:
+        "Choosing technology before understanding the project",
+
+      problem:
+        "Students may select React, Python, Java or another technology simply because it is popular without checking whether it fits the actual project requirements.",
+
+      solution:
+        "First understand the project requirements and then select technologies that are suitable for the application's functionality, scalability and development timeline."
+    },
+
+    {
+      mistake:
+        "Copying a project without understanding it",
+
+      problem:
+        "A copied project may work technically but becomes difficult to explain during a project presentation, viva or interview.",
+
+      solution:
+        "Understand the architecture, major modules, database structure, APIs and important implementation decisions used in the project."
+    },
+
+    {
+      mistake:
+        "Ignoring project documentation",
+
+      problem:
+        "Students sometimes focus only on development and leave documentation until the last moment.",
+
+      solution:
+        "Document important project decisions, features, technologies, architecture and workflows throughout development."
+    },
+
+    {
+      mistake:
+        "Not testing the complete application",
+
+      problem:
+        "A project may work on the developer's machine but fail during demonstration because of missing environment variables, API configuration, database connectivity or deployment issues.",
+
+      solution:
+        "Test the complete project before submission, including authentication, APIs, database operations, responsive layouts and deployment configuration."
+    },
+
+    {
+      mistake:
+        "Adding too many unnecessary features",
+
+      problem:
+        "Adding features that are not related to the project's core objective increases development time and makes the project harder to explain.",
+
+      solution:
+        "Prioritize features that directly support the project's objective. Additional features should be added only after the core functionality is complete."
+    },
+
+    {
+      mistake:
+        "Ignoring deployment and presentation",
+
+      problem:
+        "Students may complete the source code but have no live demo or clear explanation of how the system works.",
+
+      solution:
+        "Prepare a working demonstration, explain the major modules and keep the project repository and documentation organized."
+    }
+  ],
+
+  // ========== RESOURCES ==========
+
+  resources: [
+    {
+      type: "Guide",
+      name: "Final Year Project Planning Guide",
+      description:
+        "A practical guide to selecting a project idea, defining scope, choosing technologies and planning development.",
+      link: "#"
+    },
+
+    {
+      type: "Guide",
+      name: "How to Choose the Right Student Project",
+      description:
+        "Learn how to evaluate project ideas based on technology, complexity, academic requirements and available development time.",
+      link: "#"
+    },
+
+    {
+      type: "Template",
+      name: "Project Requirement Document Template",
+      description:
+        "A structured template for documenting project objectives, features, users, technologies and development requirements.",
+      link: "#"
+    },
+
+    {
+      type: "Guide",
+      name: "How to Explain Your Project in Viva",
+      description:
+        "A practical framework for understanding and explaining project architecture, features, technologies and implementation.",
+      link: "#"
+    },
+
+    {
+      type: "Guide",
+      name: "Project Documentation Guide",
+      description:
+        "Guidance for organizing project documentation, technical details, architecture and implementation sections.",
+      link: "#"
+    }
+  ],
+
+  // ========== FAQS ==========
+
+  faqs: [
+    {
+      question: "What types of student projects do you develop?",
+      answer:
+        "We support a wide range of student projects including final year projects, major projects, minor projects, B.Tech projects, BCA projects, MCA projects, M.Tech projects and other academic projects across different technology domains."
+    },
+
+    {
+      question: "Can you develop a custom final year project?",
+      answer:
+        "Yes. Project requirements can be discussed and the scope, features and technology stack can be planned according to the student's academic requirements."
+    },
+
+    {
+      question: "What technologies do you use for student projects?",
+      answer:
+        "Projects can be developed using technologies such as React, Node.js, Express, MongoDB, Python, Django, Flask, Java, Android, React Native, Flutter, AI/ML, data science, IoT and cloud technologies depending on the project requirements."
+    },
+
+    {
+      question: "Do you develop B.Tech projects?",
+      answer:
+        "Yes. We support B.Tech project development across computer science, IT, AI/ML, software development and other technology-focused project requirements."
+    },
+
+    {
+      question: "Do you develop BCA and MCA projects?",
+      answer:
+        "Yes. We provide project development support for BCA, MCA and other computer application academic programs."
+    },
+
+    {
+      question: "Do you develop major and minor projects?",
+      answer:
+        "Yes. Both smaller academic mini or minor projects and larger major or final year projects can be planned according to the required scope and timeline."
+    },
+
+    {
+      question: "Can you build AI and machine learning projects?",
+      answer:
+        "Yes. AI and machine learning projects can be developed using technologies such as Python, Scikit-learn, TensorFlow, PyTorch, OpenCV and other suitable tools."
+    },
+
+    {
+      question: "Can you build web development projects?",
+      answer:
+        "Yes. Web projects can be developed using frontend, backend and database technologies such as React, Node.js, Express, MongoDB, MySQL and PostgreSQL."
+    },
+
+    {
+      question: "Can you build mobile application projects?",
+      answer:
+        "Yes. Mobile projects can be developed using technologies such as React Native, Flutter, Android and other suitable mobile development frameworks."
+    },
+
+    {
+      question: "Do you provide project documentation support?",
+      answer:
+        "Yes. We provide guidance for understanding and preparing technical project documentation, architecture information, features and implementation details."
+    },
+
+    {
+      question: "Do you provide project explanation and viva guidance?",
+      answer:
+        "Yes. We can help students understand their project's architecture, technologies, features and workflows so they can prepare for demonstrations and technical discussions."
+    },
+
+    {
+      question: "Can the project be deployed online?",
+      answer:
+        "Yes. Suitable projects can be prepared for deployment on platforms such as Vercel, Render, Netlify or cloud infrastructure depending on the application requirements."
+    },
+
+    {
+      question: "Can I provide my own project idea?",
+      answer:
+        "Yes. You can bring your own project idea. We can discuss the requirements, evaluate feasibility and plan the appropriate technology and development approach."
+    },
+
+    {
+      question: "Can you help if I already started my project?",
+      answer:
+        "Yes. Existing projects can be reviewed to identify development issues, missing features, integration problems or areas that need improvement."
+    },
+
+    {
+      question: "How long does a student project take?",
+      answer:
+        "The timeline depends on project complexity, number of features, technology stack and requirements. Smaller projects may take a few weeks, while larger final year projects can require several weeks or more."
+    }
+  ],
+
+  cta:
+    "Have a project idea but don't know how to build it? Tell us your requirements and let SkillPilot help you plan, develop, understand and present your student project.",
+
+  semanticKeywords: [
+    "student project development",
+    "student project development services",
+    "final year project development",
+    "final year project services",
+    "academic project development",
+    "college project development",
+    "major project development",
+    "minor project development",
+    "student project developers",
+    "project development for students",
+    "B.Tech project development",
+    "BCA project development",
+    "MCA project development",
+    "M.Tech project development",
+    "computer science project development",
+    "CSE project development",
+    "IT project development",
+    "software project development",
+    "custom student projects",
+    "final year software projects"
+  ],
+
+  relatedKeywords: [
+    "final year projects",
+    "major projects for students",
+    "minor projects for students",
+    "B.Tech final year project",
+    "BCA final year project",
+    "MCA final year project",
+    "CSE final year project",
+    "IT final year project",
+    "web development projects",
+    "React projects",
+    "MERN stack projects",
+    "Python projects",
+    "Java projects",
+    "AI ML projects",
+    "machine learning projects",
+    "data science projects",
+    "mobile app projects",
+    "Android projects",
+    "React Native projects",
+    "Flutter projects",
+    "IoT projects",
+    "cybersecurity projects",
+    "cloud projects",
+    "project documentation",
+    "project viva preparation",
+    "project presentation",
+    "college project development",
+    "academic software projects"
+  ],
+
+  internalLinking: [
+    "Final Year Projects",
+    "Mini Projects",
+    "Web Development",
+    "Mobile App Development",
+    "AI & Machine Learning",
+    "Data Science",
+    "Python Projects",
+    "Java Projects",
+    "MERN Stack",
+    "IoT Projects",
+    "Cyber Security",
+    "Cloud & DevOps",
+    "Project Consultation",
+    "Project Documentation",
+    "Career Guidance",
+    "Placement Preparation"
+  ],
+
+  imageAltText: [
+    "Student project development services",
+    "Final year project development for students",
+    "Academic project development and guidance",
+    "Student working on software development project",
+    "Final year web development project",
+    "AI and machine learning student project",
+    "MERN stack project development",
+    "Python project development for students",
+    "Mobile application project development",
+    "Student project consultation and development"
+  ]
 }
 ]
 
